@@ -1,0 +1,14 @@
+.wrapper h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-input {
+    display: flex;
+    justify-content: center;
+}
