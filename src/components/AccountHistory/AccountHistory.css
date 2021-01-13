@@ -1,0 +1,12 @@
+.history-items {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin-right: 5px;
+}
