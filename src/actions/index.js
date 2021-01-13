@@ -1,4 +1,4 @@
-export const Deposit = (amount) =>  {
+export const deposit = (amount) =>  {
     return {
         type: 'DEPOSIT',
         payload: {
@@ -8,7 +8,7 @@ export const Deposit = (amount) =>  {
     }
 }
 
-export const Withdraw = (amount) => {
+export const withdraw = (amount) => {
     return {
         type: 'WITHDRAW',
         payload: {

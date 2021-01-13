@@ -1,4 +1,4 @@
-/*
+
 const historyReducer = (history = [], action) => {
     switch (action.type) {
         case 'DEPOSIT' :
@@ -10,7 +10,7 @@ const historyReducer = (history = [], action) => {
     }
 }
 
-*/
+/*
 const historyReducer = (history = [], action) => {
     return [
         {
@@ -27,5 +27,7 @@ const historyReducer = (history = [], action) => {
         }
     ]
 }
+
+ */
 
 export default historyReducer;
