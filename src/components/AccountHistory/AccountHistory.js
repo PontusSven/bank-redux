@@ -7,7 +7,7 @@ const AccountHistory = ({ history }) => {
     function renderList() {
         return history.map(item => {
             return <div className="history-items" key={item.amount}>
-                <h5>{item.type }</h5>
+                <h5>{item.name }</h5>
                 <h5>{item.amount }$</h5>
             </div>
         })
