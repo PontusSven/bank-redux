@@ -1,7 +1,7 @@
 import React from "react";
 
 import Balance from "../Balance"
-import AccountHistory from "../AccountHistory";
+import AccountHistory from "../AccountHistory/AccountHistory";
 import UserInput from "../UserInput";
 import "./App.css"
 

@@ -10,6 +10,7 @@ ReactDOM.render(
     <Provider store={createStore(reducers)}>
         <App />
     </Provider>,
-    document.getElementById('root'))
+    document.getElementById('root')
+)
 
 
